@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+
+header {background: rgb(77,184,100);
+    background: linear-gradient(180deg, rgba(77,184,100,1) 0%, rgba(3,91,40,1) 68%);
+margin: -20px -10px 0px -10px;
+padding: 0px 0px 0px 0px;
+box-shadow: 1px 1px 1px black;
+min-height: 150px;}
+
+
+header > h1 {font-family: 'cool';
+    color: white;
+    text-shadow: 1px 1px 1px black;
+text-align: center;
+font-size: 30px;
+padding-top: 20px;}
+
+header > h2 {font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+color: white;
+font-size: 11px;
+font-style: normal;
+padding-bottom: 10px;}
+
+nav {margin-left: 10px;
+height: 30px;}
+
+nav > a {font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-decoration: none;
+color: aliceblue;
+font-size: 12px;
+margin: 2px;
+padding-left: 5px;
+padding-right: 5px;
+padding-top: 10px;
+padding-bottom: 10px;
+height: 60px;
+width: 30px;}
+
+nav > a:hover {background-color: rgb(141, 197, 141);
+    border-radius: 2px;
+width: 30px;
+height: 60px;
+color: black;}
+
+section {background-color: aliceblue;
+width: 800px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 0px;
+box-shadow: 1px 1px 1px rgb(114, 113, 113);
+padding-left: 20px;
+padding-top: 1px;
+border-radius: 0px 0px 10px 10px;}
+
+section > h1 {font-family: 'Android';
+color: green;}
+
+section > h2 {font-family: 'Android';
+    color: green;
+background-color: rgb(194, 226, 216);
+margin-right: 15px;}
+
+p {font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 15px;
+text-align: justify;
+text-indent: 30px;
+padding-left: 10px;
+padding-right: 10px;}
+
+.udroid {width: auto;
+margin-left: 200px;}
+
+.video {background-color: rgb(19, 83, 3);
+    width: 800px; height: 400px;
+    margin-left: -20px;
+    margin-right: -40px;
+    margin-top: 0px;
+    padding: 10px 10px 10px 10px;
+ }
+
+ .qam_box {background-color: #c6f8dc;
+margin-left: 0px;
+margin-right: 20px;
+border-radius: 10px;}
+
+.qam_box > h1 {background-color: rgba(11, 148, 79, 0.781);
+font-size: 16px;
+height: 30px;
+padding-top: 13px;
+padding-left: 5px;
+color: aliceblue;
+border-radius: 10px 10px 0px 0px;}
+
+li:before {
+    padding-right: 5px;
+  }
+
+  ul {text-decoration: underline;
+   }
+
+   article {padding-bottom: 30px;}
+
+   footer {background-color: rgb(10, 82, 10);
+color: antiquewhite;
+text-align: center;
+font-size: 5px;
+height: 20px;
+margin-top: 10px;
+padding-top: -1px;}
+
+footer > p {text-align: center;
+font-size: 10px;}
